@@ -1,4 +1,9 @@
 import Image from "next/image";
+import { AiOutlinePlus } from "react-icons/ai";
+import { GoBell } from "react-icons/go";
+import { HiOutlineBars3 } from "react-icons/hi2";
+import { IoIosSearch } from "react-icons/io";
+import { MdOutlineKeyboardVoice } from "react-icons/md";
 
 export default function NavBar() {
   return (
@@ -6,7 +11,7 @@ export default function NavBar() {
       <div className="py-2 px-5  ">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-7">
-            {/* <HiOutlineBars3 className="w-6 h-6" /> */}
+            <HiOutlineBars3 className="w-6 h-6" />
             <div className="flex space-x-1 items-center">
               <Image
                 src={`/youtube.png`}
@@ -28,25 +33,25 @@ export default function NavBar() {
                   className="pl-4 py-1.5 w-full border border-gray-200 rounded-3xl rounded-bl-3xl"
                 />
                 <button className="px-6 border border-gray-200 flex items-center justify-center p-2.5 absolute right-0 top-0 bottom-0 bg-gray-50 rounded-tr-3xl rounded-br-3xl">
-                  {/* <IoIosSearch className="w-6 h-6" /> */}
+                  <IoIosSearch className="w-6 h-6" />
                 </button>
               </div>
               <div className="bg-gray-100 rounded-full p-2.5 flex items-center justify-center">
-                {/* <MdOutlineKeyboardVoice className="w-6 h-6" /> */}
+                <MdOutlineKeyboardVoice className="w-6 h-6" />
               </div>
             </div>
           </div>
 
           <div className="flex items-center md:space-x-6 space-x-3">
-            {/* <IoIosSearch className="w-6 h-6 md:hidden block" />
-            <MdOutlineKeyboardVoice className="w-6 h-6 md:hidden block" /> */}
+            <IoIosSearch className="w-6 h-6 md:hidden block" />
+            <MdOutlineKeyboardVoice className="w-6 h-6 md:hidden block" />
             <div className="bg-gray-100 rounded-3xl px-3.5 py-1.5 flex items-center space-x-1">
-              {/* <AiOutlinePlus className="w-6 h-6" /> */}
+              <AiOutlinePlus className="w-6 h-6" />
               <p className="font-bold text-sm">Create</p>
             </div>
 
             <div className="relative">
-              {/* <GoBell className="w-6 h-6" /> */}
+              <GoBell className="w-6 h-6" />
               <p className="text-xs px-1 text-center rounded-xl   bg-red-600 text-white absolute -top-1 -right-1.5">
                 7+
               </p>

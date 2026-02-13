@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { MdOutlineMoreVert } from "react-icons/md";
 
 
 export default function VideoItem({
@@ -48,7 +49,7 @@ export default function VideoItem({
           </div>
         </div>
 
-        {/* <MdOutlineMoreVert className="w-7 h-7 flex-none" /> */}
+        <MdOutlineMoreVert className="w-7 h-7 flex-none" />
       </div>
       <div className="md:block hidden absolute rounded-xl top-0 left-0  right-0 bottom-0 bg-gray-200 -z-10 opacity-0 scale-90 group-hover:opacity-100 group-hover:scale-106 transition-all duration-400 ease-in-out"></div>
     </div>

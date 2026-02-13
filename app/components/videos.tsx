@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { MdOutlineMoreVert } from "react-icons/md";
 
 export function Videos({
   videos,
@@ -48,7 +49,7 @@ export function Videos({
                 </div>
               </div>
 
-              {/* <MdOutlineMoreVert className="w-7 h-7 flex-none" /> */}
+              <MdOutlineMoreVert className="w-7 h-7 flex-none" />
             </div>
           </div>
         );
